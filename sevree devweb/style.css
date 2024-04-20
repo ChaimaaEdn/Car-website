@@ -1,0 +1,119 @@
+html{
+    font-family: poppins;
+    overflow: hidden;
+   
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+header {
+    text-align: center; /* Center align the header contents */
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: center; /* Center align the navbar contents */
+    align-items: center;
+    background-color: #ffffff;
+    padding: 30px;
+    
+  }
+  
+  .logo{
+    font-size: 1.9rem;
+    font-weight: 800;
+    color:black ;
+    text-decoration: none;
+    margin-right: 350px;
+   }
+
+  .logo span{
+color:#ff0303;
+
+  }
+  .list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Use flexbox for the list */
+    margin-left: 100px;
+  }
+  
+  .list li {
+    margin: 0 20px; /* Add some spacing between list items */
+ 
+   
+  }
+  
+  .list li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+font-size: 1.2rem;
+font-weight: 700;
+
+  }
+  
+  .list li a.active {
+    color: #ff0303; /* Color for active link */
+  }
+  
+  .background {
+    display: flex;
+    justify-content: center; /* Center align the content horizontally */
+    align-items: center; /* Center align the content vertically */
+
+  }
+  
+  .background img {
+    margin-bottom: 20px; /* Add margin below the logo image */
+    width: 45%;
+  }
+  
+  .home-text {
+    text-align: center; /* Center align the text */
+  }
+  
+  
+  .home-text {
+    text-align: center;
+    margin-top: 10px; /* Add some top margin for spacing */
+  }
+  
+  .home-text h1 {
+    font-size: 35px; /* Set the font size for the heading */
+  }
+  
+  .home-text p {
+    font-size: 17px; /* Set the font size for the paragraph */
+    margin-top: 10px; /* Add some top margin for spacing */
+    font-weight: 500;
+  }
+  
+  .btn {
+    margin-top: 20px; /* Add some top margin for spacing */
+
+}
+  
+ 
+    .btn a {
+        padding: 13px 25px;
+        background-color: #ff0000;
+        color: rgb(255, 255, 255);
+        text-decoration: none; /* Remove underline */
+       border: none;
+        border-radius: 15px;
+        transition: background-color 0.3s ease;
+   outline: none;
+    }
+      
+      .btn a:hover {
+        background-color: #070303; /* Darker background color on hover */
+      }
+
+  
+ 
+  
